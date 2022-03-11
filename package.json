@@ -1,0 +1,22 @@
+{
+  "name": "cup-wrappings",
+  "version": "1.0.0",
+  "description": "Team CUP",
+  "devDependencies": {
+    "parcel": "^2.3.2",
+    "prettier": "^2.5.1"
+  },
+  "scripts": {
+    "build": "npm run build-example-game && npm run build-example-lottie",
+    "build-example-game": "cd wrappings/example-game && npm i && parcel build ./index.html --dist-dir ../../dist/example-game --public-url /example-game/ && cd ../..",
+    "build-example-lottie": "cd wrappings/example-lottie && npm i && parcel build ./index.html --dist-dir ../../dist/example-lottie --public-url /example-lottie/ && cd ../.."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathiasprisfeldt/cup-wrappings.git"
+  },
+  "author": {
+    "name": "Team CUP"
+  },
+  "license": "MIT"
+}
