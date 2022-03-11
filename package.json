@@ -8,8 +8,8 @@
   },
   "scripts": {
     "build": "npm run build-example-game && npm run build-example-lottie",
-    "build-example-game": "cd wrappings/example-game && npm i && parcel build ./index.html --dist-dir ../../dist/example-game --public-url wwwroot/example-game/ && cd ../..",
-    "build-example-lottie": "cd wrappings/example-lottie && npm i && parcel build ./index.html --dist-dir ../../dist/example-lottie --public-url wwwroot/example-lottie/ && cd ../.."
+    "build-example-game": "cd wrappings/example-game && npm i && parcel build ./index.html --dist-dir ../../dist/example-game --public-url ./ && cd ../..",
+    "build-example-lottie": "cd wrappings/example-lottie && npm i && parcel build ./index.html --dist-dir ../../dist/example-lottie --public-url ./ && cd ../.."
   },
   "repository": {
     "type": "git",
